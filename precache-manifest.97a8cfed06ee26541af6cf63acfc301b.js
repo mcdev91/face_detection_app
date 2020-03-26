@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0654b03912eca6f6d6488605e5cb4e0b",
+    "revision": "ded5f2d107b8667041e749f470c24623",
     "url": "/face_detection_app/index.html"
   },
   {
-    "revision": "b5e22ef480dd5944e12e",
+    "revision": "f96978c7beab84c3f3d2",
     "url": "/face_detection_app/static/css/2.3b6f1bda.chunk.css"
   },
   {
-    "revision": "e934f49483c546804965",
+    "revision": "d7bc122514e4cb9f44f9",
     "url": "/face_detection_app/static/css/main.3d8657b1.chunk.css"
   },
   {
-    "revision": "b5e22ef480dd5944e12e",
-    "url": "/face_detection_app/static/js/2.e290423c.chunk.js"
+    "revision": "f96978c7beab84c3f3d2",
+    "url": "/face_detection_app/static/js/2.98dcc637.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/face_detection_app/static/js/2.e290423c.chunk.js.LICENSE.txt"
+    "url": "/face_detection_app/static/js/2.98dcc637.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e934f49483c546804965",
-    "url": "/face_detection_app/static/js/main.a80839f1.chunk.js"
+    "revision": "d7bc122514e4cb9f44f9",
+    "url": "/face_detection_app/static/js/main.762801a6.chunk.js"
   },
   {
     "revision": "23270fc4141f210b1f1d",
