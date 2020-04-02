@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/face_detection_app/static/css/main.99bdf442.chunk.css",
-    "main.js": "/face_detection_app/static/js/main.2418b54d.chunk.js",
-    "main.js.map": "/face_detection_app/static/js/main.2418b54d.chunk.js.map",
+    "main.js": "/face_detection_app/static/js/main.82cada59.chunk.js",
+    "main.js.map": "/face_detection_app/static/js/main.82cada59.chunk.js.map",
     "runtime-main.js": "/face_detection_app/static/js/runtime-main.ee1b33b6.js",
     "runtime-main.js.map": "/face_detection_app/static/js/runtime-main.ee1b33b6.js.map",
     "static/css/2.3b6f1bda.chunk.css": "/face_detection_app/static/css/2.3b6f1bda.chunk.css",
     "static/js/2.99e644ba.chunk.js": "/face_detection_app/static/js/2.99e644ba.chunk.js",
     "static/js/2.99e644ba.chunk.js.map": "/face_detection_app/static/js/2.99e644ba.chunk.js.map",
     "index.html": "/face_detection_app/index.html",
-    "precache-manifest.918778ab3f80f6f67259d1ffec22fac0.js": "/face_detection_app/precache-manifest.918778ab3f80f6f67259d1ffec22fac0.js",
+    "precache-manifest.8aba2b5f455d58e2832070b2e2aea940.js": "/face_detection_app/precache-manifest.8aba2b5f455d58e2832070b2e2aea940.js",
     "service-worker.js": "/face_detection_app/service-worker.js",
     "static/css/2.3b6f1bda.chunk.css.map": "/face_detection_app/static/css/2.3b6f1bda.chunk.css.map",
     "static/css/main.99bdf442.chunk.css.map": "/face_detection_app/static/css/main.99bdf442.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.3b6f1bda.chunk.css",
     "static/js/2.99e644ba.chunk.js",
     "static/css/main.99bdf442.chunk.css",
-    "static/js/main.2418b54d.chunk.js"
+    "static/js/main.82cada59.chunk.js"
   ]
 }
