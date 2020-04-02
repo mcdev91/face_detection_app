@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/face_detection_app/static/css/main.6ede2f38.chunk.css",
-    "main.js": "/face_detection_app/static/js/main.fe124a6d.chunk.js",
-    "main.js.map": "/face_detection_app/static/js/main.fe124a6d.chunk.js.map",
+    "main.css": "/face_detection_app/static/css/main.99bdf442.chunk.css",
+    "main.js": "/face_detection_app/static/js/main.707b2d18.chunk.js",
+    "main.js.map": "/face_detection_app/static/js/main.707b2d18.chunk.js.map",
     "runtime-main.js": "/face_detection_app/static/js/runtime-main.ee1b33b6.js",
     "runtime-main.js.map": "/face_detection_app/static/js/runtime-main.ee1b33b6.js.map",
     "static/css/2.3b6f1bda.chunk.css": "/face_detection_app/static/css/2.3b6f1bda.chunk.css",
-    "static/js/2.f5ca4342.chunk.js": "/face_detection_app/static/js/2.f5ca4342.chunk.js",
-    "static/js/2.f5ca4342.chunk.js.map": "/face_detection_app/static/js/2.f5ca4342.chunk.js.map",
+    "static/js/2.99e644ba.chunk.js": "/face_detection_app/static/js/2.99e644ba.chunk.js",
+    "static/js/2.99e644ba.chunk.js.map": "/face_detection_app/static/js/2.99e644ba.chunk.js.map",
     "index.html": "/face_detection_app/index.html",
-    "precache-manifest.fe2f79ba6015713029559f6425c0bae6.js": "/face_detection_app/precache-manifest.fe2f79ba6015713029559f6425c0bae6.js",
+    "precache-manifest.2aaae63e50bb68652c47919f23455126.js": "/face_detection_app/precache-manifest.2aaae63e50bb68652c47919f23455126.js",
     "service-worker.js": "/face_detection_app/service-worker.js",
     "static/css/2.3b6f1bda.chunk.css.map": "/face_detection_app/static/css/2.3b6f1bda.chunk.css.map",
-    "static/css/main.6ede2f38.chunk.css.map": "/face_detection_app/static/css/main.6ede2f38.chunk.css.map",
-    "static/js/2.f5ca4342.chunk.js.LICENSE.txt": "/face_detection_app/static/js/2.f5ca4342.chunk.js.LICENSE.txt",
+    "static/css/main.99bdf442.chunk.css.map": "/face_detection_app/static/css/main.99bdf442.chunk.css.map",
+    "static/js/2.99e644ba.chunk.js.LICENSE.txt": "/face_detection_app/static/js/2.99e644ba.chunk.js.LICENSE.txt",
     "static/media/LogoPng.png": "/face_detection_app/static/media/LogoPng.4fce0fc3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ee1b33b6.js",
     "static/css/2.3b6f1bda.chunk.css",
-    "static/js/2.f5ca4342.chunk.js",
-    "static/css/main.6ede2f38.chunk.css",
-    "static/js/main.fe124a6d.chunk.js"
+    "static/js/2.99e644ba.chunk.js",
+    "static/css/main.99bdf442.chunk.css",
+    "static/js/main.707b2d18.chunk.js"
   ]
 }
