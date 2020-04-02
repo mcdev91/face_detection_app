@@ -3,6 +3,7 @@ import Particles from 'react-particles-js';
 import Clarifai from 'clarifai';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Navigation from './components/Navigation/Navigation';
+import SignIn from './components/SignIn/SignIn';
 import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import Rank from './components/Rank/Rank';
@@ -40,10 +41,10 @@ class App extends Component {
     const width = Number(image.width);
     const height = Number(image.height);
     return {
-      leftCol: clarifaiFace.left_col * width,
-      topRow: clarifaiFace.top_row * height,
-      rightCol: width - (clarifaiFace.right_col * width),
-      bottomRow: height - (clarifaiFace.bottom_row * height)
+      leftCol: clarifaiFace.left_col * width - 20,
+      topRow: clarifaiFace.top_row * height - 20,
+      rightCol: width - (clarifaiFace.right_col * width + 20),
+      bottomRow: height - (clarifaiFace.bottom_row * height + 20)
     }
   }
 
@@ -73,6 +74,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
+        <SignIn />
         <Particles className="particles"
           params={ParticlesOptions}
         />
