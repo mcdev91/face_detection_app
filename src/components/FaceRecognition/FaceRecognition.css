@@ -1,6 +1,6 @@
 .bounding_box {
     position: absolute;
-    box-shadow: 0 0 0 1px #ffffff inset;
+    box-shadow: 0 0 0 2px #ffffff inset;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -45,10 +45,10 @@ class App extends Component {
     let width = Number(image.width);
     let height = Number(image.height);
     return {
-      leftcol: clarifaiFace.left_col * width -10,
-      toprow: clarifaiFace.top_row * height -10,
-      rightcol: width - (clarifaiFace.right_col * width +10),
-      bottomrow: height - (clarifaiFace.bottom_row * height +10)
+      leftcol: clarifaiFace.left_col * width - 10,
+      toprow: clarifaiFace.top_row * height - 10,
+      rightcol: width - (clarifaiFace.right_col * width + 10),
+      bottomrow: height - (clarifaiFace.bottom_row * height + 10)
     }
   }
 
@@ -63,11 +63,21 @@ class App extends Component {
     this.setState({ input: event.target.value });
   }
 
+  pressEnter = (event) => {
+    if (event.keyCode === 13) {
+      this.submitForm();
+    }
+  }
+
   onButtonSubmit = () => {
+    this.submitForm();
+  }
+
+  submitForm = () => {
     this.setState({
       box: [],
       imageUrl: this.state.input,
-      showImage: true
+      showImage: true,
     });
     app.models.predict(
       Clarifai.FACE_DETECT_MODEL,
@@ -105,6 +115,7 @@ class App extends Component {
               <ImageLinkForm
                 onInputChange={this.onInputChange}
                 onButtonSubmit={this.onButtonSubmit}
+                pressEnter={this.pressEnter}
               />
               <FaceRecognition box={this.state.box} imageUrl={this.state.imageUrl} showImage={this.state.showImage} />
             </div>
