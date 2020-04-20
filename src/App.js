@@ -73,11 +73,12 @@ class App extends Component {
     this.submitForm();
   }
 
+
   submitForm = () => {
     this.setState({
       box: [],
       imageUrl: this.state.input,
-      showImage: true,
+      showImage: true
     });
     app.models.predict(
       Clarifai.FACE_DETECT_MODEL,
@@ -124,7 +125,7 @@ class App extends Component {
                 ? <SignIn onRouteChange={this.onRouteChange} />
                 : <Register onRouteChange={this.onRouteChange} />
             )
-
+            console.log('test');
         }
       </div>
     );
