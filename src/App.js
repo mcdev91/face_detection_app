@@ -125,7 +125,6 @@ class App extends Component {
                 ? <SignIn onRouteChange={this.onRouteChange} />
                 : <Register onRouteChange={this.onRouteChange} />
             )
-            console.log('test');
         }
       </div>
     );
