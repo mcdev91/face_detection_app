@@ -19,7 +19,6 @@ class SignIn extends React.Component {
     }
 
     onSubmitSignIn = () => {
-        // console.log(this.state);
         fetch('http://localhost:3000/signin', {
             method: 'post',
             headers: { 'Content-Type': 'application/json' },
@@ -29,15 +28,10 @@ class SignIn extends React.Component {
             })
         })
             .then(response => response.json())
-            .then(data => {
-                if (data === 'success') {
+            .then(user => {
+                if (user.id) {
+                    this.props.loadUser(user);
                     this.props.onRouteChange('home');
-                } else {
-                    setTimeout(() => {
-                        alert('maybe you need to register first?');
-                        this.props.onRouteChange('register');
-                    }, 1000);
-                    return
                 }
             })
     }
