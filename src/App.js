@@ -95,7 +95,7 @@ class App extends Component {
       imageUrl: this.state.input,
       showImage: true
     });
-    fetch('http://localhost:3000/imageurl', {
+    fetch('https://guarded-brook-28653.herokuapp.com/imageurl', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -108,7 +108,7 @@ class App extends Component {
           this.displayFaceBox(this.calculateFaceLocation(response, i))
         }
         if (response) {
-          fetch('http://localhost:3000/image', {
+          fetch('https://guarded-brook-28653.herokuapp.com/image', {
             method: 'put',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
