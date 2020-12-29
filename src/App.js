@@ -12,7 +12,7 @@ import './App.css';
 const particleprams = {
   particles: {
     number: {
-      value: 180,
+      value: 30,
       density: {
         enable: true,
         value_area: 700
